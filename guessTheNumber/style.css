@@ -1,0 +1,60 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1611996575749-79a3a250f948?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.guessField {
+    padding: 5px;
+}
+
+.guessSubmit {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.resultParas {
+    margin-top: 20px;
+}
+
+.guesses {
+    color: #333;
+    font-weight: bold;
+}
+
+.lastResult {
+    color: #333;
+    font-weight: bold;
+}
+
+.lowOrHi {
+    color: #333;
+    font-weight: bold;
+}
